@@ -2,3 +2,4 @@
 .github/ISSUE_TEMPLATE.md
 .travis.yml
 appveyor.yml
+.idea/

@@ -1,7 +1,7 @@
 {
-  "name": "level",
-  "version": "6.0.1",
-  "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)",
+  "name": "level-nodejs-mobile",
+  "version": "6.0.1-1",
+  "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN), compatible with nodejs-mobile",
   "license": "MIT",
   "main": "level.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "level-js": "^5.0.0",
     "level-packager": "^5.1.0",
-    "leveldown": "^5.4.0"
+    "leveldown-nodejs-mobile": "^5.4.1-3"
   },
   "devDependencies": {
     "airtap": "^3.0.0",
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Level/level.git"
+    "url": "git+https://github.com/coletivoEITA/level-nodejs-mobile.git"
   },
-  "homepage": "https://github.com/Level/level",
+  "homepage": "https://github.com/coletivoEITA/level-nodejs-mobile",
   "keywords": [
     "level",
     "leveldb",
@@ -55,5 +55,9 @@
   ],
   "engines": {
     "node": ">=8.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/coletivoEITA/level-nodejs-mobile/issues"
+  },
+  "author": "Vinicius Cubas Brand"
 }
