@@ -1,6 +1,6 @@
 {
   "name": "level-nodejs-mobile",
-  "version": "6.0.1-1",
+  "version": "6.0.1-4",
   "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN), compatible with nodejs-mobile",
   "license": "MIT",
   "main": "level.js",
@@ -51,7 +51,8 @@
     "db",
     "store",
     "storage",
-    "json"
+    "json",
+    "nodejs-mobile"
   ],
   "engines": {
     "node": ">=8.6.0"
@@ -59,5 +60,5 @@
   "bugs": {
     "url": "https://github.com/coletivoEITA/level-nodejs-mobile/issues"
   },
-  "author": "Vinicius Cubas Brand"
+  "author": "Coletivo EITA (https://eita.coop.br)"
 }
